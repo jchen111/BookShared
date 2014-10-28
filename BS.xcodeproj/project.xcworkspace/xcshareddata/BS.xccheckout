@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>E8E63087-09A0-4705-A343-2D73BD8D1BCA</string>
+	<key>IDESourceControlProjectName</key>
+	<string>BS</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>7196337C667D2D259B549336E577F2A06DF3C937</key>
+		<string>https://bitbucket.org/oldman09/cs442_project_bookshare_jiaqi_chen.git</string>
+		<key>90CC950E-937B-427E-B0DD-1E0CECF7E4A0</key>
+		<string>https://bitbucket.org/oldman09/cs442_project_bookshare_jiaqi_chen.git</string>
+		<key>B4F788B6-97C4-4F35-B0C3-EB75A2A9036F</key>
+		<string>https://bitbucket.org/oldman09/bookshare.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>BS.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>7196337C667D2D259B549336E577F2A06DF3C937</key>
+		<string>../..</string>
+		<key>90CC950E-937B-427E-B0DD-1E0CECF7E4A0</key>
+		<string>../../../BS2/cs442_project_bookshare_jiaqi_chen</string>
+		<key>B4F788B6-97C4-4F35-B0C3-EB75A2A9036F</key>
+		<string>../../../BookShare</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/oldman09/cs442_project_bookshare_jiaqi_chen.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>7196337C667D2D259B549336E577F2A06DF3C937</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>B4F788B6-97C4-4F35-B0C3-EB75A2A9036F</string>
+			<key>IDESourceControlWCCName</key>
+			<string>BookShare</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>7196337C667D2D259B549336E577F2A06DF3C937</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cs442_project_bookshare_jiaqi_chen</string>
+		</dict>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>90CC950E-937B-427E-B0DD-1E0CECF7E4A0</string>
+			<key>IDESourceControlWCCName</key>
+			<string>cs442_project_bookshare_jiaqi_chen</string>
+		</dict>
+	</array>
+</dict>
+</plist>

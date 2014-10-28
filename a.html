@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Project 1</title>
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script>
+
+//The code that we need in Xcode starts from here.
+var isbn;//= 9780123852427;
+  var book, title=null, subtitle=null, author=null;
+
+  function getBook (isbn) {
+          $.getJSON("https://www.googleapis.com/books/v1/volumes?q="+isbn+"+isbn", function(data) {
+                    
+                    book = data.items[0].volumeInfo;
+                    title = book.title;
+                    subtitle = book.subtitle;
+                    author = book.authors.toString();
+                    
+                    console.log("The book title is "+ title);
+                    //If subtitle is undefined, please delete the object in other code.
+                    console.log("The book subtitle is "+ subtitle);
+                    console.log("The book author is "+ author);
+                    });
+                    return (title+"/"+subtitle+"/"+author);
+
+            }
+
+ // }
+// Xcode ends here.
+  function showOnBrowser () {
+ 
+    $('p.book').html("The book title is "+ title);
+    if (subtitle) {
+      $('p.subtitle').html("The book subtitle is "+ subtitle);
+    } else {
+      $('p.subtitle').html("");
+    };
+    $('p.author').html("The book author is "+ author);
+  }
+
+
+
+$(document).ready(
+                  getBook(isbn)
+//                  showOnBrowser();
+);
+
+</script>
+</head>
+<body>
+  <p class="book">The book title is loading...</p>
+  <p class="subtitle">The book subtitle is loading...</p>
+  <p class="author">The book authors are loading...</p>
+  <p><small>Book data from <a href="https://www.googleapis.com/books/v1/volumes?q=0123852420+isbn">Google Library</a>.</small></p>
+</body>
+</html>

@@ -60,7 +60,7 @@
     self.navigationItem.backBarButtonItem.tintColor=colorchange(139, 196, 215, 1.0);
     
     like_UDID=[NSString stringWithFormat:@"%@",[[UIDevice currentDevice] identifierForVendor]];
-    Macaddress = [like_UDID substringFromIndex:29];
+    Macaddress = [like_UDID substringFromIndex:33];
     NSLog(@"%@",booktitle);
     NSLog(@"%@",subtitle);
     NSLog(@"%@",author);
